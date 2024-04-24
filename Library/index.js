@@ -69,7 +69,7 @@ function addBookModal() {
     document.getElementById('sort-header-container').appendChild(new_header);
 
     //Populate and append the form title. 
-    headerString = 'Sort jobs: '; 
+    headerString = 'Add new book: '; 
     new_header.appendChild(document.createTextNode(headerString));
     // Create line break
     let br = document.createElement('br');

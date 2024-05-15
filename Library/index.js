@@ -41,7 +41,7 @@ function displayLibrary(){
         const bookPages = document.createTextNode(myLibrary[i].numberOfPages);
         document.getElementById(div.id).appendChild(bookPages);
 
-        document.getElementById(div.id).appendChild(br.cloneNode());
+        document.getElementById(div.id).appendChild(br.cloneNode());    
         const bookRead = document.createTextNode(myLibrary[i].read);
         document.getElementById(div.id).appendChild(bookRead);
     }
